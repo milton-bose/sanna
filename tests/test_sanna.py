@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 """
 test_sanna
 ----------------------------------
@@ -21,7 +22,7 @@ class TestSanna(unittest.TestCase):
         pass
 
     def test_theano_installation(self):
-        """Test importing theano...
+        """Test theano installation ...
         """
         import theano
         self.assertIsInstance(str(theano.__version__), str)

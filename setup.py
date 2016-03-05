@@ -15,6 +15,8 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read().replace('.. :changelog:', '')
 
 requirements = [
+        numpy>=1.10.0,
+        theano>=0.7.0,
     # TODO: put package requirements here x
 ]
 
